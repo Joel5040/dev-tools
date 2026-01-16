@@ -1,23 +1,44 @@
-# 👋 Hi, I'm Joel
+# Development Tools Collection
 
-## 🚀 About Me
-Developer building practical projects and improving skills through hands-on learning.
+A set of utilities developed to streamline DevOps workflows and automate development processes.
 
-## 🛠️ Tech Stack
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python
-- **Tools:** Git, GitHub, Linux CLI
+## Tools Included
 
-## 📂 Featured Projects
+### 1. Repository Setup (`repo_setup.py`)
+Automates Git repository initialization with DevOps best practices:
+- Creates `.gitignore` with infrastructure-as-code exclusions
+- Generates standardized README templates
+- Sets up initial CI/CD-ready commits
 
-### [Portfolio Website](https://github.com/Joel5040/portfolio-website)
-Responsive portfolio website built with vanilla HTML/CSS/JS.
+### 2. Project Backup (`project_backup.sh`)
+Creates timestamped backups of development projects with:
+- Infrastructure state preservation
+- Container image management
+- Configuration versioning
 
-### [Python Task Manager](https://github.com/Joel5040/python-task-manager)
-Command-line task management application with JSON persistence.
+## Purpose
+These tools were developed as part of my DevOps transition journey, applying Quality Control principles of standardization and reproducibility to development workflows.
 
-### [Development Tools](https://github.com/Joel5040/dev-tools)
-Utilities for automating development workflows and project management.
+## Skills Demonstrated
+- Infrastructure as Code principles
+- Automation scripting (Python/Bash)
+- Git operations and version control
+- Process optimization from QC background
 
-## 📫 Connect
-- GitHub: [@Joel5040](https://github.com/Joel5040)
+## DevOps Application
+- **Standardization**: Applying QC batch consistency to deployment processes
+- **Reproducibility**: Ensuring environment consistency across deployments
+- **Documentation**: Maintaining precise records akin to QC compliance tracking
+
+## Usage
+\`\`\`bash
+# Repository setup with DevOps standards
+python3 repo_setup.py
+
+# Infrastructure backup
+chmod +x project_backup.sh
+./project_backup.sh
+\`\`\`
+
+## License
+MIT License
